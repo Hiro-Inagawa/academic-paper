@@ -94,12 +94,11 @@ Flag these; do not auto-reject. The user decides based on paper type and venue.
 
 ### Overclaim-adjacent
 
+Note: "Clearly shows," "obviously," and "undoubtedly" are Tier 1 hard-rejects (see SKILL.md Rule 3 and the Overclaiming table above). Listed here only for the "Demonstrates" exception.
+
 | Flagged | Context where it might be OK | Context where it is wrong |
 |---------|------------------------------|---------------------------|
-| "Clearly shows" | Solid quantitative result with independent replication | Preliminary or correlational finding |
-| "Obviously" | Almost never appropriate; flag always | Flag always |
-| "Undoubtedly" | Almost never appropriate | Flag always |
-| "Demonstrates" | Well-supported, measured finding | Preliminary or theoretical claim |
+| "Demonstrates" | Well-supported, measured finding with replication | Preliminary or theoretical claim |
 
 ### Passive voice
 

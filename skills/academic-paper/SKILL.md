@@ -72,10 +72,11 @@ If AI-assisted writing is substantial, disclose per the target venue's policy. C
 | Checking an argument | `05-argument-structure.md`, `06-citation-triangle.md` |
 | Citation formatting | `07-citation-styles.md` |
 | LaTeX setup or debugging | `08-latex-conventions.md`, `assets/templates/` |
-| Responding to reviewer risk | `09-defense-playbooks.md §[type]` |
+| Responding to reviewer risk (before submission) | `09-defense-playbooks.md §[type]` |
 | Drafting the Abstract | `10-abstract-craft.md` |
 | Revising prose | `11-revision-discipline.md` |
 | Disclosure question | `12-ai-ethics.md` |
+| Writing a response letter after peer review | `13-reviewer-response.md` |
 
 ## What this skill does
 

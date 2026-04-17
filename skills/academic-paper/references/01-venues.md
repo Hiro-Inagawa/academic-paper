@@ -180,6 +180,56 @@ University-specific. Ask the graduate school for the approved LaTeX or Word temp
 
 ---
 
+## What each venue does NOT accept
+
+A venue can reject a paper on fit grounds regardless of quality. Know what each venue refuses before drafting.
+
+### arxiv
+
+- No real restrictions on content; accepts nearly everything in scope for its categories.
+- Rejects submissions that are: not machine-readable, include watermarks, or use prohibited categories without endorsement.
+
+### NeurIPS, ICML, ICLR
+
+Will reject on fit:
+- Pure autoethnography (no empirical data) — wrong methodology for ML venue.
+- Pure position papers without empirical or formal results.
+- Qualitative-only user studies — they prefer quantitative evaluation.
+- Theory papers without applications or experiments.
+- Papers that do not fit the ML topic scope.
+
+Prefer: empirical results with ablations, reproducibility artifacts, quantitative evaluation against baselines, formal proofs paired with empirical validation.
+
+### CHI, CSCW, DIS
+
+Will reject on fit:
+- Pure mathematical proofs without user-relevance framing.
+- Hard-core ML algorithm papers without human-centered framing.
+- Theory papers that do not connect to design, practice, or human experience.
+- Papers that frame autoethnography or qualitative findings as generalizable (CHI accepts them as situated, not universal).
+
+Prefer: user studies (quantitative or qualitative), design research, autoethnography with reflexivity, systems with user evaluation, theory grounded in human practice.
+
+### Journal (general)
+
+Will reject on fit:
+- Work that does not match the journal's stated scope.
+- Preliminary results (journals prefer complete studies).
+- Papers shorter than the journal's minimum (usually 6,000 words).
+- Conference-style brevity (journal papers have more exposition).
+
+Varies by journal. Always check scope and aims.
+
+### Thesis
+
+No content restrictions beyond university guidelines. But:
+- Must meet department's methodological standards.
+- Must include full literature review chapter.
+- Must demonstrate research contribution at the degree level (Masters: competence; PhD: original contribution).
+- Committee may reject on scope (too narrow or too broad).
+
+---
+
 ## Venue decision table
 
 | Primary fit | Best venue | Avoid |
