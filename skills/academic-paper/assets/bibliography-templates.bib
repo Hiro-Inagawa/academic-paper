@@ -1,0 +1,229 @@
+% academic-paper — bibliography entry templates
+%
+% Templates by source type. Copy the appropriate template when adding a new citation.
+% Remove the template comments from your working .bib file once populated.
+%
+% Citation key convention: lastnameYYYYshortword (e.g., smith2024attention).
+%
+% Rules:
+%   - When a paper is both on arxiv and at a venue, cite the venue version.
+%   - Use @misc for corporate blog posts, products, and community sources.
+%   - Date-stamp access for URLs: note={Accessed: YYYY-MM-DD}.
+%   - Every entry here must be cited at least once in the manuscript.
+%   - Review before submission and remove unused entries.
+
+% ===================================================================
+% Journal article (peer-reviewed)
+% ===================================================================
+@article{lastname2024journal,
+  author    = {Last, First and Second, Author and Third, Author},
+  title     = {Paper Title: With Subtitle If Needed},
+  journal   = {Journal Name},
+  volume    = {42},
+  number    = {3},
+  pages     = {101--120},
+  year      = {2024},
+  doi       = {10.xxxx/yyyy},
+  publisher = {Publisher Name}
+}
+
+% ===================================================================
+% Conference paper (ACM, IEEE, or similar venue)
+% ===================================================================
+@inproceedings{lastname2024conf,
+  author    = {Last, First and Second, Author},
+  title     = {Paper Title},
+  booktitle = {Proceedings of the Conference Name (CONF '24)},
+  series    = {CONF '24},
+  year      = {2024},
+  location  = {City, Country},
+  pages     = {100--115},
+  doi       = {10.xxxx/yyyy},
+  publisher = {ACM}
+}
+
+% ===================================================================
+% arXiv preprint (no venue version)
+% ===================================================================
+@article{lastname2024arxiv,
+  author        = {Last, First and Second, Author},
+  title         = {Paper Title},
+  year          = {2024},
+  eprint        = {2403.12345},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.AI},
+  url           = {https://arxiv.org/abs/2403.12345}
+}
+
+% ===================================================================
+% Book
+% ===================================================================
+@book{author2020book,
+  author    = {Last, First},
+  title     = {Book Title},
+  year      = {2020},
+  publisher = {Publisher},
+  address   = {City},
+  edition   = {2nd}
+}
+
+% ===================================================================
+% Book chapter
+% ===================================================================
+@incollection{lastname2020chapter,
+  author    = {Last, First},
+  title     = {Chapter Title},
+  booktitle = {Edited Book Title},
+  editor    = {Editor, Name},
+  year      = {2020},
+  publisher = {Publisher},
+  pages     = {25--47}
+}
+
+% ===================================================================
+% Edited book
+% ===================================================================
+@book{editor2020edited,
+  editor    = {Editor, First and Editor, Second},
+  title     = {Edited Book Title},
+  year      = {2020},
+  publisher = {Publisher},
+  address   = {City}
+}
+
+% ===================================================================
+% Thesis (PhD or Masters)
+% ===================================================================
+@phdthesis{author2022phd,
+  author = {Last, First},
+  title  = {Thesis Title},
+  school = {University Name},
+  year   = {2022},
+  type   = {PhD thesis}
+}
+
+@mastersthesis{author2022ms,
+  author = {Last, First},
+  title  = {Thesis Title},
+  school = {University Name},
+  year   = {2022},
+  type   = {Master's thesis}
+}
+
+% ===================================================================
+% Technical report
+% ===================================================================
+@techreport{author2023tr,
+  author      = {Last, First},
+  title       = {Technical Report Title},
+  institution = {Institution Name},
+  year        = {2023},
+  number      = {TR-2023-01},
+  type        = {Technical Report}
+}
+
+% ===================================================================
+% Corporate blog post or research article
+% ===================================================================
+@misc{corp2024blog,
+  author       = {{Corporation Name}},
+  title        = {Post or Article Title},
+  year         = {2024},
+  howpublished = {\url{https://example.com/post}},
+  note         = {Accessed: 2024-09-15}
+}
+
+% ===================================================================
+% Product documentation
+% ===================================================================
+@misc{corp2024product,
+  author       = {{Corporation Name}},
+  title        = {Product Name},
+  year         = {2024},
+  howpublished = {\url{https://example.com/product}},
+  note         = {Accessed: 2024-09-15}
+}
+
+% ===================================================================
+% Software / GitHub repository (prefer Zenodo DOI if archived)
+% ===================================================================
+@software{lastname2024repo,
+  author       = {Last, First},
+  title        = {repo-name: A Tool for X},
+  year         = {2024},
+  url          = {https://github.com/user/repo},
+  doi          = {10.5281/zenodo.xxxxxxx}
+}
+
+% ===================================================================
+% Dataset
+% ===================================================================
+@misc{lastname2024dataset,
+  author       = {Last, First},
+  title        = {Dataset Name},
+  year         = {2024},
+  doi          = {10.xxxx/zenodo.xxxxx},
+  note         = {Dataset}
+}
+
+% ===================================================================
+% Standard or specification
+% ===================================================================
+@misc{standard2023,
+  author       = {{Organization}},
+  title        = {Standard Name and Version},
+  year         = {2023},
+  note         = {Standard Identifier}
+}
+
+% ===================================================================
+% Community source (LessWrong, Reddit, Medium) — cite sparingly
+% ===================================================================
+@misc{author2024community,
+  author       = {Author, Name},
+  title        = {Post Title},
+  year         = {2024},
+  howpublished = {LessWrong. \url{https://lesswrong.com/posts/...}},
+  note         = {Accessed: 2024-09-15}
+}
+
+% ===================================================================
+% In-press or forthcoming (use sparingly; update to final citation when possible)
+% ===================================================================
+@article{lastname2024inpress,
+  author  = {Last, First},
+  title   = {Paper Title},
+  journal = {Journal Name},
+  year    = {2024},
+  note    = {In press}
+}
+
+% ===================================================================
+% Patent
+% ===================================================================
+@patent{author2023patent,
+  author = {Last, First},
+  title  = {Patent Title},
+  year   = {2023},
+  number = {US 11,xxx,xxx},
+  nationality = {US},
+  type        = {Patent}
+}
+
+% ===================================================================
+% Media or news article
+% ===================================================================
+@misc{author2024news,
+  author       = {Last, First},
+  title        = {Article Title},
+  year         = {2024},
+  howpublished = {The New York Times},
+  month        = mar,
+  day          = {15},
+  note         = {Accessed: 2024-09-15}
+}
+
+% ===================================================================
+% YOUR ENTRIES GO BELOW
+% Delete the templates above (except retain one as reference) when starting a paper.
+% ===================================================================

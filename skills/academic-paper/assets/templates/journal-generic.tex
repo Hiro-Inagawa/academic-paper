@@ -1,0 +1,124 @@
+% academic-paper — generic journal scaffold
+%
+% Generic journal-style manuscript: 12 pt, double-spaced, 1-inch margins.
+% Adapt to specific journal requirements (check author guidelines).
+% For biomedical journals expecting structured abstracts, see the abstract
+% section below.
+%
+% Usage:
+%   1. Copy this file. Rename (e.g., manuscript.tex).
+%   2. Check the target journal's author guidelines and adjust:
+%      - Font size
+%      - Spacing
+%      - Margins
+%      - Citation style (may require different \bibliographystyle)
+%      - Line numbers (some journals require; use \linenumbers)
+%      - Cover letter (usually separate document)
+%   3. Create references.bib for your citations.
+%   4. Compile.
+
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+% Some journals require line numbers for review:
+% \usepackage{lineno}
+% \linenumbers
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{xcolor}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue,
+  urlcolor=blue,
+}
+
+\bibliographystyle{plainnat}  % Change per journal style (e.g., apa, chicago, vancouver)
+
+\title{Your Manuscript Title: Subtitle If Needed}
+
+\author{%
+  First A. Author$^{1}$, Second B. Author$^{1,2}$, Third C. Author$^{2}$ \\
+  $^{1}$Affiliation One, City, Country \\
+  $^{2}$Affiliation Two, City, Country \\
+  Corresponding author: \texttt{email@example.com}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% Unstructured abstract:
+% 1. Problem (1-2 sentences)
+% 2. Approach (1-2 sentences)
+% 3. Key results with specific numbers (2-3 sentences)
+% 4. Significance (1 sentence)
+% Target: 150-350 words (journal-dependent).
+%
+% For structured abstract (biomedical journals):
+% \noindent\textbf{Background.} ...
+% \noindent\textbf{Methods.} ...
+% \noindent\textbf{Results.} ...
+% \noindent\textbf{Conclusions.} ...
+\end{abstract}
+
+\noindent\textbf{Keywords:} keyword1; keyword2; keyword3; keyword4; keyword5
+
+\section{Introduction}
+% CARS moves. Longer than conference papers.
+
+\section{Related Work}
+% Or "Background" — check journal convention.
+
+\section{Methods}
+
+\subsection{Participants or Materials}
+
+\subsection{Procedure}
+
+\subsection{Analysis}
+
+\section{Results}
+
+\section{Discussion}
+
+\section{Limitations}
+
+\section{Conclusion}
+
+\section*{Acknowledgments}
+% Funding, affiliations, institutional support.
+% If AI tools were used substantively, disclose here:
+% "We used [AI tool] to [specific use]. All content was reviewed and verified
+% by the authors, who take full responsibility for the final manuscript."
+
+\section*{Author Contributions}
+% CRediT taxonomy recommended:
+% https://credit.niso.org/
+% Example:
+% First A. Author: Conceptualization, Methodology, Writing - original draft.
+% Second B. Author: Data curation, Formal analysis, Writing - review and editing.
+
+\section*{Data Availability}
+% Where data and code are archived. Zenodo, OSF, Figshare.
+% "The data and analysis code are available at https://doi.org/..."
+
+\section*{Competing Interests}
+% Declare any competing financial or personal interests, or state:
+% "The authors declare no competing interests."
+
+\bibliography{references}
+
+\end{document}

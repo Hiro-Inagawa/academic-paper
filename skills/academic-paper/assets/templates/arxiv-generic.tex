@@ -1,0 +1,139 @@
+% academic-paper — arxiv generic scaffold
+%
+% Open-license starter for arxiv preprints. For NeurIPS/ICML/ICLR/CHI,
+% download the venue's official template instead (see POINTERS.md).
+%
+% Usage:
+%   1. Copy this file to your paper directory. Rename (e.g., paper.tex).
+%   2. Create references.bib for your citations.
+%   3. Compile: pdflatex paper.tex, bibtex paper, pdflatex paper.tex, pdflatex paper.tex
+%   4. For arxiv upload: ensure paper.bbl exists and shares the base name with paper.tex.
+
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[letterpaper,margin=1in]{geometry}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=blue,
+  urlcolor=blue,
+}
+
+\bibliographystyle{plainnat}
+
+% Paper metadata
+\title{Your Paper Title: Subtitle If Needed}
+
+\author{%
+  First A. Author\thanks{We use authorial ``we'' throughout, following CS convention.} \\
+  Affiliation \\
+  City, Country \\
+  \texttt{email@example.com}
+  \and
+  Second B. Author \\
+  Affiliation \\
+  \texttt{email@example.com}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+% Four-move formula:
+% 1. Problem (1-2 sentences)
+% 2. Approach (1-2 sentences)
+% 3. Key results with specific numbers (2-3 sentences)
+% 4. Significance (1 sentence)
+% Target: 150-250 words.
+\end{abstract}
+
+\section{Introduction}
+% CARS moves:
+% Move 1: Establish territory (why the field or problem matters)
+% Move 2: Establish niche (the gap)
+% Move 3: Occupy niche (what this paper does)
+% End with contribution bullets:
+%   1. We present...
+%   2. We demonstrate...
+%   3. We report...
+%   4. We propose...
+
+\section{Related Work}
+% Organize by theme, not by paper.
+% Each subsection: what the category does, what it does not do, how this paper differs.
+
+\subsection{Category 1}
+
+\subsection{Category 2}
+
+\section{Method}
+% For empirical: IMRaD Methods.
+% For theory: Formal definitions, argument structure.
+
+\subsection{Participants or Dataset}
+
+\subsection{Procedure}
+
+\subsection{Analysis}
+
+\section{Results}
+% Present findings. Minimal interpretation (save for Discussion).
+% Active voice. Past tense for what was observed.
+% Include effect sizes, CIs, and p-values for quantitative.
+% Include thick description and quotes for qualitative.
+
+\section{Discussion}
+% Summarize findings. Interpret. Connect to prior work.
+% Heaviest citation density. Appropriate hedging.
+
+\section{Limitations}
+% Honest accounting. One limitation per sentence or paragraph.
+% No softeners. No boilerplate.
+
+\section{Conclusion}
+% Restate thesis with evidence. Short.
+% No new information.
+
+% Example figure
+% \begin{figure}[htbp]
+%   \centering
+%   \includegraphics[width=0.8\textwidth]{figures/diagram.pdf}
+%   \caption{Caption that stands alone with the figure.}
+%   \label{fig:diagram}
+% \end{figure}
+
+% Example table (with booktabs)
+% \begin{table}[htbp]
+%   \centering
+%   \begin{tabular}{lrr}
+%     \toprule
+%     Metric & Before & After \\
+%     \midrule
+%     Value 1 & 0.42 & 0.87 \\
+%     Value 2 & 3.14 & 2.71 \\
+%     \bottomrule
+%   \end{tabular}
+%   \caption{Table caption.}
+%   \label{tab:results}
+% \end{table}
+
+\bibliography{references}
+
+% Optional appendix
+% \appendix
+% \section{Supplementary Material}
+
+\end{document}

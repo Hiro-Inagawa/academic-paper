@@ -1,0 +1,8 @@
+{
+  "name": "academic-paper",
+  "version": "1.0.0",
+  "description": "Claude Code skill for drafting, editing, and reviewing academic papers. Supports 6 paper types and 5 venues with tiered voice rules.",
+  "author": "Hiro-Inagawa",
+  "license": "MIT",
+  "skills": ["skills/academic-paper"]
+}
