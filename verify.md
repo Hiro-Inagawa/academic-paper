@@ -1,6 +1,6 @@
 # Verify
 
-Audit checklist for the `academic-paper` skill. Run these ablation tests in a fresh Claude Code session to confirm the skill catches the issues it claims to catch, and does not over-flag.
+Audit checklist for the `paper-audit-skill` skill. Run these ablation tests in a fresh Claude Code session to confirm the skill catches the issues it claims to catch, and does not over-flag.
 
 Each test has three parts:
 

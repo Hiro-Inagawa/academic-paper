@@ -174,7 +174,7 @@ Exception: when applying for a conference or grant, you write a draft abstract a
 - **Graphical abstract**: some journals require a separate graphical abstract (a single figure summarizing the paper visually). Check the journal's guidelines. Graphical abstracts are not part of the text abstract.
 - **Highlighting a figure in the abstract**: do not do this. The abstract is prose. A reader who sees "see Figure 3" in the abstract is being told to read the paper first.
 
-See `09-abstract-and-figures.md` (paper-shin) for figure specs; for academic-paper, figure specs are venue-dependent.
+See `09-abstract-and-figures.md` (paper-shin) for figure specs; for paper-audit-skill, figure specs are venue-dependent.
 
 ---
 

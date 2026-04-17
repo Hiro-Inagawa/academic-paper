@@ -1,13 +1,13 @@
 ---
-name: academic-paper
-description: "Use when drafting, editing, or reviewing academic papers. Activates on mentions of academic paper, manuscript, arxiv, thesis, dissertation, peer review, submission, abstract, methods/results/discussion sections, or file extensions .tex and .bib. Identify paper type (empirical quantitative, empirical qualitative, autoethnography, theory, systematic review, position) and target venue (arxiv, NeurIPS/ICML/ICLR, CHI/CSCW/DIS, journal, thesis) before drafting. Applies venue-appropriate voice, Swales moves, citation discipline, and tiered forbidden-phrase filter."
+name: paper-audit-skill
+description: "Use when auditing, revising, or reviewing academic papers against paper-type and venue conventions. Activates on mentions of academic paper, manuscript, arxiv, thesis, dissertation, peer review, submission, abstract, methods/results/discussion sections, or file extensions .tex and .bib. Identify paper type (empirical quantitative, empirical qualitative, autoethnography, theory, systematic review, position) and target venue (arxiv, NeurIPS/ICML/ICLR, CHI/CSCW/DIS, journal, thesis) before reviewing. Applies venue-appropriate voice, Swales moves, citation discipline, and tiered forbidden-phrase filter."
 ---
 
-# academic-paper
+# paper-audit-skill
 
-A Claude Code skill for writing academic papers. Supports six paper types and five venues, with tiered voice rules so a CHI autoethnography and a NeurIPS methods section are judged by different standards.
+A Claude Code skill for auditing and revising academic papers. Supports six paper types and five venues, with tiered voice rules so a CHI autoethnography and a NeurIPS methods section are judged by different standards.
 
-This skill produces structured drafts that match the target venue's conventions and flags issues for human review. It is not a grammar checker, not a fact-checker, and not a literature search tool.
+This skill reviews existing drafts and flags issues against the target venue's conventions. It structures sections, audits voice and citations, and suggests revisions. It is not a grammar checker, not a fact-checker, and not a literature search tool. It does not write papers from scratch.
 
 ## Session start protocol
 

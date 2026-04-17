@@ -9,7 +9,7 @@
 
 **Draft papers like a journal editor reviews them.**
 
-# academic-paper
+# paper-audit-skill
 
 **A Claude Code skill for writing academic papers. Six paper types. Five venues. Tiered voice rules.**
 
@@ -59,7 +59,7 @@ The skill does not:
 One command:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Hiro-Inagawa/academic-paper/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Hiro-Inagawa/paper-audit-skill/main/install.sh | bash
 ```
 
 Works on macOS and Linux. On Windows, run in Git Bash or WSL.
@@ -67,9 +67,9 @@ Works on macOS and Linux. On Windows, run in Git Bash or WSL.
 ### Alternative: Manual install
 
 ```bash
-git clone https://github.com/Hiro-Inagawa/academic-paper.git /tmp/academic-paper
-cp -r /tmp/academic-paper/skills/academic-paper ~/.claude/skills/
-rm -rf /tmp/academic-paper
+git clone https://github.com/Hiro-Inagawa/paper-audit-skill.git /tmp/paper-audit-skill
+cp -r /tmp/paper-audit-skill/skills/paper-audit-skill ~/.claude/skills/
+rm -rf /tmp/paper-audit-skill
 ```
 
 No dependencies to install. The skill is pure markdown; it does not require Node, Playwright, or any other runtime.
@@ -97,7 +97,7 @@ First interaction: the skill asks for paper type and venue. Answer honestly; dif
 If the skill does not auto-activate when you want it, reference it directly:
 
 ```
-"Using the academic-paper skill, review this paragraph."
+"Using the paper-audit-skill skill, review this paragraph."
 ```
 
 ## Supported Paper Types
@@ -159,7 +159,7 @@ Read through the tests. Pick three or four. Try them in a fresh Claude Code sess
 
 ## Reference Files
 
-The skill body is in `skills/academic-paper/`. It contains:
+The skill body is in `skills/paper-audit-skill/`. It contains:
 
 ```
 SKILL.md                           # Top-level rules and routing

@@ -1,8 +1,8 @@
 {
-  "name": "academic-paper",
-  "version": "1.0.2",
-  "description": "Claude Code skill for drafting, editing, and reviewing academic papers. Supports 6 paper types and 5 venues with tiered voice rules.",
+  "name": "paper-audit-skill",
+  "version": "1.0.3",
+  "description": "Claude Code skill that audits and revises academic papers against paper-type and venue conventions. Six paper types, five venues, tiered voice rules.",
   "author": "Hiro-Inagawa",
   "license": "MIT",
-  "skills": ["skills/academic-paper"]
+  "skills": ["skills/paper-audit-skill"]
 }
